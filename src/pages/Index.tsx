@@ -6,6 +6,7 @@ import WhyChooseSection from "@/components/WhyChooseSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
 import QuoteSection from "@/components/QuoteSection";
 import Footer from "@/components/Footer";
+import VoiceAssistant from "@/components/VoiceAssistant";
 
 const Index = () => (
   <div className="min-h-screen">
@@ -17,6 +18,7 @@ const Index = () => (
     <TestimonialsSection />
     <QuoteSection />
     <Footer />
+    <VoiceAssistant />
   </div>
 );
 
